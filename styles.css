@@ -69,7 +69,7 @@ body { background: #0a0a0a; color: var(--text); font-family: "Geist", system-ui,
 body::before { position: fixed; z-index: -2; inset: 0; pointer-events: none; background: radial-gradient(900px 500px at 15% -5%, rgba(0, 77, 97, .3), transparent 70%), radial-gradient(700px 400px at 95% 10%, rgba(41, 171, 226, .1), transparent 70%), linear-gradient(180deg, #0a0a0a 0%, #070a0c 100%); content: ""; }
 body::after { position: fixed; z-index: -1; inset: 0; pointer-events: none; opacity: .35; background-image: linear-gradient(rgba(0, 77, 97, .16) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 77, 97, .16) 1px, transparent 1px); background-size: 64px 64px; mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 25%, transparent 80%); content: ""; }
 .page-glow { opacity: .06; }
-.site-header { height: 84px; border-bottom: 1px solid var(--line-soft); background: rgba(10, 10, 10, .72); backdrop-filter: blur(14px); }
+.site-header { height: 84px; border-bottom: 0; background: transparent; backdrop-filter: none; }
 .brand-mark { border-color: rgba(41, 171, 226, .45); background: rgba(0, 77, 97, .16); box-shadow: 0 0 22px rgba(41, 171, 226, .1); }
 .desktop-nav { font-family: "Geist Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
 .header-cta, .button, .install-panel, .feature-card, .screenshots-grid figure { border-color: var(--line); border-radius: .625rem; }
